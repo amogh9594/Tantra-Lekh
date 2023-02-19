@@ -1,4 +1,4 @@
-# Tantra-Lekh
+# Tantra-Lekh | Blogging Website
 
 The above project is a simple blogging website created using the Streamlit framework in Python. It allows the user to create new blog posts, including a title, tags, content, and optional image. The user can also choose between Markdown and plain text formatting for their blog post.
 
