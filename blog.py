@@ -20,7 +20,7 @@ def create_sidebar():
         # Save the blog post and any uploaded images
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
         post_filename = f"{timestamp}-{post_title}.md"
-        with open(f"https://github.com/amogh9594/Tantra-Lekh/tree/main/blog_posts/{post_filename}", "w") as f:
+        with open(f"blog_posts/{post_filename}", "w") as f:
             f.write(f"Title: {post_title}\n")
             f.write(f"Tags: {post_tags}\n")
             f.write(f"Timestamp: {timestamp}\n")
